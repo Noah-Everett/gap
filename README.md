@@ -1,6 +1,6 @@
 # gap
 
-`gap` is a (very) simple tool that creates a gap in terminal output when you run the command `gap`. 
+`gap` is a (very) simple tool that creates a gap or vertical space in terminal output. 
 It's useful for separating the output of different commands in the terminal so that you can easily distinguish between them.
 This becomes especially useful when you have a lot of output from different commands and you want to quickly find the output of a specific command.
 
