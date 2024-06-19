@@ -25,12 +25,12 @@ touch ${SCRIPT_DIR}/gap
 cat <<EOF > ${SCRIPT_DIR}/gap
 #!/bin/bash
 
-# Default value for N
-N=\$(tput lines)
-
 # If an argument is provided, use it as N
-if [ $# -gt 0 ]; then
-    N=${1}
+if [ \$# -gt 0 ]; then
+    N=\$1
+else
+    # Default value for N
+    N=\$(tput lines)
 fi
 
 # Print N blank lines

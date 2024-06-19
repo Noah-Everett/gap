@@ -6,7 +6,7 @@ This becomes especially useful when you have a lot of output from different comm
 
 ## Installation
 
-To install `gap`, you first need to clone the repository:
+To install `gap`, you first need to clone the repository. Note, throughout this README, `<>` marks the variables you need to replace and `[]` marks optional arguments.
 
 ```bash
 cd <path/to/parent/directory>
@@ -16,7 +16,7 @@ git clone [--depth=1] https://github.com/Noah-Everett/gap.git
 Then, simply run the `make_gap.sh` script:
 
 ```bash
-cd <path/to/gap>
+cd <path/to/gap/dir>
 source install_gap.sh
 ```
 
