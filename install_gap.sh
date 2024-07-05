@@ -30,7 +30,7 @@ if [ \$# -gt 0 ]; then
     N=\$1
 else
     # Default value for N
-    N=\$(tput lines)
+    N=\$((\$(tput lines) - 1))
 fi
 
 # Print N blank lines
